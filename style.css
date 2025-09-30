@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+main {
+    background-color: ghostwhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+main > div:first-child {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+a {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) {
+    main div {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    main div {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main div {
+        width: 40%;
+    }
+}
